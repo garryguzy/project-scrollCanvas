@@ -23,4 +23,7 @@ interface ScrollOpts {
   container: HTMLElement;
   startPos: number;
   endPos: number;
+  width?: number ;
+  height?: number ;
+  imgs? : string[];
 }
